@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/testimony-2",
+      "handler": "testimony-2.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/testimony-2",
+      "handler": "testimony-2.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/testimony-2",
+      "handler": "testimony-2.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

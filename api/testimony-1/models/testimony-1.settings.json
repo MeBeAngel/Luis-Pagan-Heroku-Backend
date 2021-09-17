@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "names",
+  "collectionName": "testimony_1s",
   "info": {
-    "name": "names"
+    "name": "Testimony #1"
   },
   "options": {
     "increments": true,
@@ -12,6 +12,15 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "text"
+    },
+    "video_url": {
       "type": "string"
     }
   }

@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/names",
-      "handler": "names.find",
+      "path": "/testimony-1",
+      "handler": "testimony-1.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/names",
-      "handler": "names.update",
+      "path": "/testimony-1",
+      "handler": "testimony-1.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/names",
-      "handler": "names.delete",
+      "path": "/testimony-1",
+      "handler": "testimony-1.delete",
       "config": {
         "policies": []
       }
