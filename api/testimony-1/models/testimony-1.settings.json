@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "testimony_1s",
   "info": {
-    "name": "Testimony #1"
+    "name": "Testimony #1",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -22,6 +23,18 @@
     },
     "video_url": {
       "type": "string"
+    },
+    "poster": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
